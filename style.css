@@ -1,0 +1,138 @@
+@import url("https://fonts.googleapis.com/css?family=Nunito+Sans&display=swap");
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    font-family: "Nunito Sans", sans-serif;
+    font-size: 10px;
+}
+
+nav div {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+nav ul {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 30px;
+    padding-bottom: 10px;
+    list-style: none;
+}
+
+nav ul li {
+    margin: 0 10px;
+    font-weight: 900;
+    font-size: 10px;
+
+}
+
+#frnd {
+    background: yellow;
+    width: 100%;
+    height: 550px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 50px;
+    padding-bottom: 45px;
+
+}
+
+h1 {
+    font-size: 45px;
+    font-weight: 700;
+}
+
+#frnd div {
+    display: flex;
+    justify-content: space-around;
+    padding: 50px 0;
+}
+
+.link-button {
+    background: white;
+    color: black;
+    text-align: center;
+    font-weight: 600;
+    padding: 15px 45px;
+    border-radius: 32px;
+    letter-spacing: 1px;
+    border-color: none;
+    cursor: pointer;
+    font-size: 15px;
+    text-decoration: none;
+}
+
+.link-button:hover {
+    color: blue;
+}
+
+#frnd div article {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    text-align: center;
+    font-size: 15px;
+}
+
+#frnd div article img,
+h4,
+p {
+    margin-bottom: 10px;
+}
+
+#about div {
+    display: flex;
+    justify-content: space-around;
+    padding: 2em;
+}
+
+#about span {
+    display: flex;
+    padding: 0 0 10px 127px;
+}
+
+#about div article h4 {
+    font-weight: 900;
+}
+
+#about span article h4 {
+    font-weight: 900;
+}
+
+
+#about div article {
+    font-size: 15px;
+    font-weight: 100;
+    list-style: none;
+    padding: 5px;
+}
+
+#about span article {
+    font-size: 15px;
+    font-weight: 100;
+    list-style: none;
+    padding: 5px;
+}
+
+
+footer div {
+    background: black;
+    color: white;
+    height: 20px;
+    width: 100%;
+    font-size: 15px;
+    padding: 10px;
+
+}
+
+footer div p {
+    margin-left: 120px;
+}
